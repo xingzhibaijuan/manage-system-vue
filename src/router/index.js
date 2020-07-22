@@ -22,7 +22,8 @@ Vue.use(VueRouter)
         {
           path: 'home',
           nema: 'home',
-          component: () => import('@/views/Home')
+          component: () => import('@/views/Home'),
+          meta: { title: '系统首页' }
         }
       ]
     },

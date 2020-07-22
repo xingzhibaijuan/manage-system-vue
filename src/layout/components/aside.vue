@@ -56,22 +56,22 @@ export default {
             collapse: false,
             items: [
                 {
-                    icon: 'el-icon-lx-home',
+                    icon: 'el-icon-s-home',
                     index: 'dashboard',
                     title: '系统首页'
                 },
                 {
-                    icon: 'el-icon-lx-cascades',
+                    icon: 'el-icon-edit-outline',
                     index: 'table',
                     title: '基础表格'
                 },
                 {
-                    icon: 'el-icon-lx-copy',
+                    icon: 'el-icon-copy-document',
                     index: 'tabs',
                     title: 'tab选项卡'
                 },
                 {
-                    icon: 'el-icon-lx-calendar',
+                    icon: 'el-icon-notebook-2',
                     index: '3',
                     title: '表单相关',
                     subs: [
@@ -100,7 +100,7 @@ export default {
                     ]
                 },
                 {
-                    icon: 'el-icon-lx-emoji',
+                    icon: 'el-icon-magic-stick',
                     index: 'icon',
                     title: '自定义图标'
                 },
@@ -125,12 +125,12 @@ export default {
                     ]
                 },
                 {
-                    icon: 'el-icon-lx-global',
+                    icon: 'el-icon-bank-card',
                     index: 'i18n',
                     title: '国际化功能'
                 },
                 {
-                    icon: 'el-icon-lx-warn',
+                    icon: 'el-icon-warning-outline',
                     index: '7',
                     title: '错误处理',
                     subs: [
@@ -145,7 +145,7 @@ export default {
                     ]
                 },
                 {
-                    icon: 'el-icon-lx-redpacket_fill',
+                    icon: 'el-icon-user',
                     index: '/donate',
                     title: '支持作者'
                 }
